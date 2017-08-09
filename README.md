@@ -23,3 +23,14 @@ https://issues.apache.org/jira/browse/DRILL-4211
 ./stop.sh
 ```
 
+## Configure Storage Plugin
+
+```
+{
+  "type": "jdbc",
+  "driver": "org.postgresql.Driver",
+  "url": "jdbc:postgresql://localhost:5432",
+  "username": "postgres",
+  "enabled": true
+}
+```
